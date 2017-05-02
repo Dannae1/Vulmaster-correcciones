@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.alonso.vulmaster.exito">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="TERMINOS Y CONDICIONES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtexito"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="BIENVENIDO A VULMASTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtbienvenida"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="15sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:text="Lee los terminos y condiciones
+TESTING DE VULMASTER, aceptar y continuar "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtterminos"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="15sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:text="1.Cargos: Tú eres responsable del pago de todos los costos o gastos incurridos como resultado de la descarga y el uso de cualquiera de las promociones de VULMASTER, incluidos todos los cargos de la red y de roaming del operador. Consulta los detalles con tu proveedor del servicio."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcondicion1"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="10sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="2.La Aplicación de VULMASTER puede permitirte usar vínculos o conectarte para usar las funcionalidades de aplicaciones, servicios o sitios de terceros que no son propiedad de ni están controlados por VULMASTER (colectivamente “Aplicaciones de terceros”). Todas las Aplicaciones de terceros están sujetas a los términos y condiciones del proveedor de servicios pertinente. Sony Mobile no tiene control ni es responsable de cuestiones relacionadas con tus tratos o transacciones con dichos terceros ni del contenido, contenido sindicado, aplicaciones, servicios, sitios, publicidad, vínculos, políticas o prácticas de privacidad de cualquiera de dichos terceros a los que se pueda tener acceso a través de la Aplicación de Sony Mobile. Es tu responsabilidad verificar las políticas de privacidad y los términos de servicio y de uso de todos los sitios de terceros que visites antes de descargar o usar dichas Aplicaciones de terceros."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcondicion2"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="10sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+        android:text="3.Idioma: es posible que no todo el contenido esté disponible en tu idioma local."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcondicion3"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:textSize="10sp"
+        android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="4.Ingeniería inversa: Aceptas no desarmar, descompilar, aplicar ingeniería inversa ni de otro modo tratar de obtener acceso al código fuente de la Aplicación de VULMASTER. No copiarás parte alguna de la Aplicación ni darás uso comercial, rentarás, arrendarás, venderás, publicarás, otorgarás licencias o sublicencias, distribuirás, cederás ni de otro modo transferirás parte alguna de la Aplicación a tercero alguno."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcondicion4"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="10sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="5.VULMASTER se reserva el derecho a rastrear de manera anónima y denunciar a nuestros proveedores de servicios estadísticos de terceros tus actividades en la Aplicación de TESTING VULMASTER."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcondicion5"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="10sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="6.Protección de tu información personal: Deseamos ayudarte a tomar todas las medidas necesarias para proteger tu privacidad e información. Tu información que recopilamos de cualquier Usuario de VULMASTER y las medidas específicas que tomamos para proteger tu información personal.."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcondicion6"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="10sp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:text="Aceptar y continuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnaceptarcontinuar"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="22sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

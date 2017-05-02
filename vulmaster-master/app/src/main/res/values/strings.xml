@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VulMaster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_exitoderegistro">exitoderegistro</string>
+    <string name="title_activity_deportes">Deportes</string>
+    <string name="title_activity_depor">depor</string>
+    <string name="title_activity_deporte">deporte</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_testing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.alonso.vulmaster.Testing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="TESTING VULMASTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttesting"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="30sp"
+            android:textColor="@color/colorAccent"/>
+
+
+    <TextView
+        android:text="Elige algún tema de interés "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtingreso"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"/>
+
+
+
+        <Button
+            android:text="Deportes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndeportes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:text="Alimentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnalimentos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:text="Entretenimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnentretenimiento"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:text="Turismo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnviajes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="SALIR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSalir"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+</LinearLayout>
+</LinearLayout>
+
